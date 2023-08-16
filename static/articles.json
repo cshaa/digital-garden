@@ -1,0 +1,18 @@
+[
+	{
+		"slug": "index",
+		"name": "csha's digital garden"
+	},
+	{
+		"slug": "linked",
+		"name": "linked"
+	},
+	{
+		"slug": "lipsum",
+		"name": "lorem ipsum"
+	},
+	{
+		"slug": "quantum/index",
+		"name": "quantum"
+	}
+]

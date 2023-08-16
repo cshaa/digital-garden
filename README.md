@@ -1,38 +1,4 @@
-# create-svelte
+# csha's digital garden
+This is my digital garden, made in SvelteKit and Markdown, and hosted on [garden.csha.io](https://garden.csha.io). All the code under in `src/` is under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). Please feel encouraged to reuse this system for your own digital garden!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+The articles in `static/articles/` are technically my IP, so please cite me properly, but I won't be mad if you reuse large chunks of my texts, or if you republish entire articles in a different medium. Unless you try to present them as your original work, of course.

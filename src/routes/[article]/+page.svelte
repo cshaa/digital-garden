@@ -2,7 +2,7 @@
 	import 'katex/dist/katex.min.css';
 
 	import Markdown, { type Plugin } from 'svelte-exmarkdown';
-	import { gfm, math } from '$lib/plugins.ts';
+	import { gfm, math } from '$lib/re-plugins.ts';
 	const plugins = [gfm, math];
 
 	import type { PageData } from './$types.d.ts';

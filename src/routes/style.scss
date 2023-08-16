@@ -32,6 +32,10 @@ main {
 	margin: 3em;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
 	color: hsl(240, 100%, 35%);
 	&:visited {
