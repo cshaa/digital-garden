@@ -1,0 +1,48 @@
+html,
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+html {
+	overflow-y: auto;
+	height: 100%;
+	align-items: start;
+}
+
+body {
+	align-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: hsl(0, 0%, 15%);
+		color: hsl(0, 0%, 85%);
+	}
+}
+
+main {
+	width: 30em;
+	min-height: 50%;
+	margin: 3em;
+}
+
+a {
+	color: hsl(240, 100%, 35%);
+	&:visited {
+		color: hsl(255, 100%, 30%);
+	}
+}
+@media (prefers-color-scheme: dark) {
+	a {
+		color: hsl(230, 100%, 75%);
+		&:visited {
+			color: hsl(255, 100%, 80%);
+		}
+	}
+}
