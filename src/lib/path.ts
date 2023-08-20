@@ -10,14 +10,18 @@ export function safePath(path: string) {
 
 export async function fetchArticle(
 	fetch: typeof globalThis.fetch,
-	path: string,
+	article: string,
 ): Promise<{
 	path: string;
 	source: string;
 }> {
-	path = '/articles/' + safePath(path);
-	let res = await fetch(path + '.md');
-	if (!res.ok) {
+	article = safePath(article);
+	let res: Response | undefined;
+
+	let path = '/articles/' + article;
+	if (article) res = await fetch(path + '.md');
+
+	if (!res?.ok) {
 		path += '/index';
 		res = await fetch(path + '.md');
 	}

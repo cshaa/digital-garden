@@ -5,8 +5,7 @@
 	import { gfm, math } from '$lib/re-plugins.ts';
 	const plugins = [gfm, math];
 
-	import type { PageData } from './$types.d.ts';
-	export let data: PageData;
+	export let data;
 </script>
 
 <Markdown md={data.source} {plugins} />
