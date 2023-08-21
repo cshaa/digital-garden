@@ -3,7 +3,6 @@ import { readdir, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
-import { gfm } from './re-plugins.ts';
 
 import type { Article } from '../../static/articles.d.ts';
 

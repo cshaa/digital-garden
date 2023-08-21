@@ -9,3 +9,12 @@ export const math: Plugin = {
 	remarkPlugin: remarkMath,
 	rehypePlugin: rehypeKatex,
 };
+
+// import Link from './Link.svelte';
+// import type { SvelteComponent } from 'svelte';
+
+// export const links: Plugin = {
+// 	renderer: {
+// 		a: Link as typeof SvelteComponent,
+// 	},
+// };

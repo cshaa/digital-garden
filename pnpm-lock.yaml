@@ -8,6 +8,9 @@ dependencies:
   '@fontsource/gentium-book-plus':
     specifier: ^5.0.8
     version: 5.0.8
+  '@fortawesome/free-solid-svg-icons':
+    specifier: ^6.4.2
+    version: 6.4.2
   katex:
     specifier: ^0.16.8
     version: 0.16.8
@@ -26,6 +29,9 @@ dependencies:
   svelte-exmarkdown:
     specifier: ^2.1.0
     version: 2.1.0(svelte@4.2.0)
+  svelte-fa:
+    specifier: ^3.0.4
+    version: 3.0.4
   unified:
     specifier: ^11.0.0
     version: 11.0.0
@@ -328,6 +334,20 @@ packages:
 
   /@fontsource/gentium-book-plus@5.0.8:
     resolution: {integrity: sha512-nkO93xCkTU13YIbdW/YI28CJieJIpHwvOD7Ma6wxPTMt1IqIkSILUuGrBcarz1LrnY9LfD8csWLnucXseAVvMg==}
+    dev: false
+
+  /@fortawesome/fontawesome-common-types@6.4.2:
+    resolution: {integrity: sha512-1DgP7f+XQIJbLFCTX1V2QnxVmpLdKdzzo2k8EmvDOePfchaIGQ9eCHj2up3/jNEbZuBqel5OxiaOJf37TWauRA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
+
+  /@fortawesome/free-solid-svg-icons@6.4.2:
+    resolution: {integrity: sha512-sYwXurXUEQS32fZz9hVCUUv/xu49PEJEyUOsA51l6PU/qVgfbTb2glsTEaJngVVT8VqBATRIdh7XVgV1JF1LkA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.4.2
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
@@ -2389,6 +2409,10 @@ packages:
       unified: 10.1.2
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /svelte-fa@3.0.4:
+    resolution: {integrity: sha512-y04vEuAoV1wwVDItSCzPW7lzT6v1bj/y1p+W1V+NtIMpQ+8hj8MBkx7JFD7JHSnalPU1QiI8BVfguqheEA3nPg==}
     dev: false
 
   /svelte-hmr@0.15.3(svelte@4.2.0):
