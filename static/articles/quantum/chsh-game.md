@@ -5,6 +5,11 @@ The CHSH game, and the inequality that is central to it, demonstrates the
 precisely it demonstrates that it is not possible that quantum mechanics is a 
 classical theory with local hidden variables.
 
+This article details the rules of the game, accompanied by some hefty flavour 
+text. You can check these other articles for the [best classical 
+strategy](./chsh-classical), the [quantum strategy](./chsh-quantum) and
+the [conclusion](./chsh-conclusion) of this game.
+
 ## the premise
 
 Imagine the following situation: you are a secret spy tasked with the 

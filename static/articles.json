@@ -12,6 +12,10 @@
 		"name": "lorem ipsum"
 	},
 	{
+		"slug": "quantum/chsh-classical",
+		"name": "the chsh game: classical strategy"
+	},
+	{
 		"slug": "quantum/chsh-game",
 		"name": "the chsh game"
 	},
