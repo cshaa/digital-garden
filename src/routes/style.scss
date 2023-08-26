@@ -30,6 +30,7 @@ main {
 	width: 30em;
 	min-height: 50%;
 	margin: 3em;
+	margin-bottom: 6em;
 }
 
 p {
@@ -49,5 +50,23 @@ a {
 		&:visited {
 			color: hsl(255, 100%, 80%);
 		}
+	}
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+th {
+	font-weight: normal;
+}
+td, th {
+	border: 1px solid hsl(0, 0, 75%);
+	padding: 0.5em;
+}
+@media (prefers-color-scheme: dark) {
+	table td,
+	table th {
+        	border: 1px solid hsl(0, 0, 30%);
 	}
 }
