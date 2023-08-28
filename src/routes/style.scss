@@ -70,3 +70,10 @@ td, th {
         	border: 1px solid hsl(0, 0, 30%);
 	}
 }
+
+.cols {
+	display: flex;
+	flex-direction: row;
+	gap: 2em;
+	justify-content: center;
+}

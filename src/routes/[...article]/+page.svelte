@@ -2,16 +2,9 @@
 	import 'katex/dist/katex.min.css';
 
 	import Markdown, { type Plugin } from 'svelte-exmarkdown';
-	import { gfm, math } from '$lib/re-plugins.ts';
-	import Link from '$lib/Link.svelte';
-	import type { SvelteComponent } from 'svelte';
+	import { gfm, links, math, rawHtml } from '$lib/re-plugins.ts';
 
-	const links: Plugin = {
-		renderer: {
-			a: Link as typeof SvelteComponent,
-		},
-	};
-	const plugins = [gfm, links, math];
+	const plugins = [gfm, links, math, rawHtml];
 
 	export let data;
 </script>
