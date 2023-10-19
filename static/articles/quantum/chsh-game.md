@@ -30,7 +30,7 @@ right-handed doppelganger's suit, but don't match the others.
 
 |                         |  left-handed | right-handed |
 |------------------------:|:------------:|:------------:|
-|      matching suit size |    target    | doppelganger |
+|      matching suit size | ✅ target 🎯 | doppelganger |
 | suit size doesn't match | doppelganger | doppelganger |
 
 Therefore, you have to have know both pieces of information in order to tell 
@@ -51,8 +51,8 @@ poison, but digested on its own it is just as deadly.
 
 |                   | poison not used | poison used |
 |------------------:|:---------------:|:-----------:|
-| antidote not used |       safe      |    lethal   |
-|     antidote used |      lethal     |     safe    |
+| antidote not used |     🚰 safe     |   ☠️ lethal  |
+|     antidote used |     ☠️ lethal    |   🚰 safe   |
 
 Each of you will have a chance to pour the contents of your ampoule into the 
 drink at different times. Since both the poison and the antidote are designed 
@@ -71,10 +71,10 @@ Success of your mission is defined as either poisoning the target – if present
 either poison a doppelganger, or fail to poison the present target, the mission 
 is deemed a failure.
 
-|              | target present | target not present |
-|-------------:|:--------------:|:------------------:|
-|     poisoned |     success    |       failure      |
-| not poisoned |     failure    |       success      |
+|                 | target present 🎯 | target not present 🤵 |
+|----------------:|:-----------------:|:---------------------:|
+|     poisoned ☠️  |     ✅ success    |      ❌ failure       |
+| not poisoned 🚰 |     ❌ failure    |      ✅ success       |
 
 What is the highest probability of success you can achieve with the perfect 
 strategy? That will depend on whether you live in a universe where quantum
