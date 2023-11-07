@@ -30,7 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/gentium-book-plus": "^5.0.8",
+		"@fontsource/ubuntu-mono": "^5.0.17",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
 		"hast-util-to-html": "^9.0.0",
 		"katex": "^0.16.8",

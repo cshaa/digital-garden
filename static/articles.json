@@ -1,5 +1,9 @@
 [
 	{
+		"slug": "hw/qft01",
+		"name": "HW #1: Properties of $\\bm\\gamma$ matrices"
+	},
+	{
 		"slug": "index",
 		"name": "csha's digital garden"
 	},
@@ -12,6 +16,10 @@
 		"name": "lorem ipsum"
 	},
 	{
+		"slug": "mind-body/brainstorming",
+		"name": "mind-body/brainstorming"
+	},
+	{
 		"slug": "quantum/chsh-classical",
 		"name": "the chsh game: classical strategy"
 	},
@@ -22,5 +30,9 @@
 	{
 		"slug": "quantum/index",
 		"name": "quantum"
+	},
+	{
+		"slug": "tech/degoogle-oneplus",
+		"name": "Get and degoogle a OnePlus"
 	}
 ]

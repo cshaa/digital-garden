@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@fontsource/gentium-book-plus':
-    specifier: ^5.0.8
-    version: 5.0.8
+  '@fontsource/ubuntu-mono':
+    specifier: ^5.0.17
+    version: 5.0.17
   '@fortawesome/free-solid-svg-icons':
     specifier: ^6.4.2
     version: 6.4.2
@@ -338,8 +338,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/gentium-book-plus@5.0.8:
-    resolution: {integrity: sha512-nkO93xCkTU13YIbdW/YI28CJieJIpHwvOD7Ma6wxPTMt1IqIkSILUuGrBcarz1LrnY9LfD8csWLnucXseAVvMg==}
+  /@fontsource/ubuntu-mono@5.0.17:
+    resolution: {integrity: sha512-0V0FVXfbNtWERJKTf2mps8VzJy0xv9H+Pqfz9UkoPjNld1ILE+XzkgD+vIBFmkIo5zH7UdjxXaP2KkSMz8jpBw==}
     dev: false
 
   /@fortawesome/fontawesome-common-types@6.4.2:

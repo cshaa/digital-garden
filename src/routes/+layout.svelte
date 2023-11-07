@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@fontsource/gentium-book-plus';
+	import '@fontsource/ubuntu-mono';
 	import './style.scss';
 </script>
 

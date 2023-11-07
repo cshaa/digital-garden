@@ -76,7 +76,7 @@ perform their action if their observation indicates a doppelganger, and whether 
 perform the action if their observation is consistent with the target being present. This
 limits the total number of possible strategies to sixteen (four bits, $2^4 = 16$). However,
 since the probability of a success of a given strategy wouldn't change if we swapped the two
-agents' answers, we only need to go over half of all the strategies.
+agents' answers, so it turns out we only need to go over 10 of them.
 
 We will use the notation $S_{abcd}$, where $a,b,c,d$ are either $0$ or $1$ to denote a strategy
 where
@@ -98,7 +98,7 @@ This strategy would be successful 75 % of the time:
 | correct suit, <br/> antidote not added |  ✅ <br/> target poisoned      |  ✅ <br/> doppelganger lived        |
 | wrong suit, <br/> antidote added       |  ✅ <br/> doppelganger lived   |  ❌ <br/> doppelganger poisoned     |
 
-Let's evaluate all eight strategies then:
+Let's evaluate all ten strategies then:
 
 |            | 🎯✋🤵 | 🤚🤵 | ✋🧑‍💼 | 🤚🧑‍💼 |  $P$   |
 |:----------:|:------:|:----:|:----:|:----:|:------:|
@@ -108,8 +108,10 @@ Let's evaluate all eight strategies then:
 | $S_{1100}$ | 🪦✅   | 🪦❌ | 🪦❌ | 🪦❌ | $25\%$ |
 | $S_{1010}$ | 🙎❌   | 🪦❌ | 🪦❌ | 🙎✅ | $25\%$ |
 | $S_{0110}$ | 🪦✅   | 🙎✅ | 🙎✅ | 🪦❌ | $75\%$ |
+| $S_{0101}$ | 🪦❌   | 🙎❌ | 🙎❌ | 🪦✅ | $25\%$ |
 | $S_{1011}$ | 🙎❌   | 🪦❌ | 🙎✅ | 🪦❌ | $25\%$ |
 | $S_{0111}$ | 🪦✅   | 🙎✅ | 🪦❌ | 🙎✅ | $75\%$ |
+| $S_{1111}$ | 🙎❌   | 🙎✅ | 🙎✅ | 🙎✅ | $75\%$ |
 
 (Legend: 🎯 = target, ✋ = left-handed, 🤚 = right-handed, 🤵 = suit of the correct size, 🧑‍💼 = suit
 of the wrong size, 🙎 = lived, 🪦 = killed, ✅ = success, ❌ = failure, $P$ = probability of success.)
@@ -124,3 +126,10 @@ each agent could flip a coin, throw a dice, or decide according to whether the r
 black hair. It doesn't matter that event would be _truly random_ – what matters is that the event wouldn't
 be in any way correlated to the left-handedness or suit size of the suspected target, therefore we can
 treat it as an independent random variable.
+
+Let's imagine a few examples. The agents might flip a coin before the event to jointly decide between strategies $S_{0110}$ and $S_{1011}$. Then, the total probability of either success is given by the weighted sum of the success probabilities of the two strategies:
+$$
+  P = 50 \% \; P(S_{0110}) + 50 \% \; P(S_{1011})
+  = \frac{1}{2} \, 75 \% + \frac{1}{2} \, 25 \%
+  = 50 \%
+$$

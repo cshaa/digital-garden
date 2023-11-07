@@ -1,3 +1,32 @@
+@font-face {
+	font-family: 'Liberation Serif';
+	src: url('/fonts/LiberationSerifBold.ttf')
+		format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Liberation Serif';
+	src: url('/fonts/LiberationSerifBoldItalic.ttf')
+		format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Liberation Serif';
+	src: url('/fonts/LiberationSerifItalic.ttf')
+		format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Liberation Serif';
+	src: url('/fonts/LiberationSerifRegular.ttf')
+		format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html,
 body {
 	display: flex;
@@ -7,6 +36,7 @@ body {
 	width: 100%;
 	max-width: 100%;
 	overflow: hidden;
+	font-family: 'Liberation Serif', serif;
 }
 
 html {
@@ -35,7 +65,11 @@ main {
 }
 
 p {
-  text-align: justify;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+li {
 	line-height: 1.5;
 }
 
@@ -54,6 +88,16 @@ a {
 	}
 }
 
+code {
+	font-family: 'Ubuntu Mono', monospace;
+	color: hsl(0, 0%, 20%);
+}
+@media (prefers-color-scheme: dark) {
+	code {
+		color: hsl(0, 0%, 70%);
+	}
+}
+
 table {
 	margin: auto;
 	border-collapse: collapse;
@@ -61,14 +105,15 @@ table {
 th {
 	font-weight: normal;
 }
-td, th {
-	border: 1px solid hsl(0, 0, 75%);
+td,
+th {
+	border: 1px solid hsl(0, 0%, 75%);
 	padding: 0.5em;
 }
 @media (prefers-color-scheme: dark) {
 	table td,
 	table th {
-        	border: 1px solid hsl(0, 0, 30%);
+		border: 1px solid hsl(0, 0%, 30%);
 	}
 }
 
