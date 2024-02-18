@@ -48,7 +48,7 @@ After the degoogling, you won't be able to use Google Pay or Google Wallet. Also
 
 8. Once the fastboot is unlocked, reboot the phone to OS (either by choosing something like “Reboot to System” on the phone, or by `fastboot reboot`, or by turning it off and on again).
 
-9. Upgrade the phone to OxygenOS 12. Installing all the available updates via _Settings_ might be enough, but if your specific phone is still in OOS12 beta, you'll have to upgrade manually – see the [community.oneplus.com](https://community.oneplus.com/) forums again.
+9. Upgrade the phone to OxygenOS 12. Installing all the available updates via _Settings_ might be enough, but if your specific phone is still in OOS12 beta, you'll have to upgrade manually – see the [community.oneplus.com](https://community.oneplus.com/) forums again. If you don't succeed in finding an image that works, you can also check the XDA Forums again – for example with Nord I had to use the Indian OOS12 Beta 2 image from [here](https://xdaforums.com/t/oneplus-nord-rom-ota-oxygen-os-repo-of-oxygen-os-builds.4138085/).
 
 10. On your PC, go to [LineageOS devices page](https://wiki.lineageos.org/devices/#oneplus), select your device, download the latest LineageOS build (most probably it will be four files: `lineage-xxx.zip`, `boot.img`, `dtbo.img` and `vbmeta.img`). Then follow the step by step guide there.
 
