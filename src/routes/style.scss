@@ -1,28 +1,24 @@
 @font-face {
 	font-family: 'Liberation Serif';
-	src: url('/fonts/LiberationSerifBold.ttf')
-		format('truetype');
+	src: url('/fonts/LiberationSerifBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Liberation Serif';
-	src: url('/fonts/LiberationSerifBoldItalic.ttf')
-		format('truetype');
+	src: url('/fonts/LiberationSerifBoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Liberation Serif';
-	src: url('/fonts/LiberationSerifItalic.ttf')
-		format('truetype');
+	src: url('/fonts/LiberationSerifItalic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Liberation Serif';
-	src: url('/fonts/LiberationSerifRegular.ttf')
-		format('truetype');
+	src: url('/fonts/LiberationSerifRegular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -62,13 +58,15 @@ main {
 	margin: 3em 1em 6em;
 	font-size: 1.2rem;
 	max-width: 100%;
+	box-sizing: border-box;
 }
 
 @media (max-width: 640px) {
 	main {
 		width: 100%;
 		font-size: 1rem;
-		margin: 1.5em 5% 3em;
+		margin: 1.5em 0 3em;
+		padding: 0 1em;
 	}
 }
 
