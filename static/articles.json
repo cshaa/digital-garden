@@ -4,6 +4,14 @@
 		"name": "HW #1: Properties of $\\bm\\gamma$ matrices"
 	},
 	{
+		"slug": "hw/qft02",
+		"name": "HW #2: Pauli-Lubanski pseudovector"
+	},
+	{
+		"slug": "hw/qft03",
+		"name": "HW #3: Charge Conjugation"
+	},
+	{
 		"slug": "index",
 		"name": "csha's digital garden"
 	},
@@ -30,6 +38,10 @@
 	{
 		"slug": "quantum/index",
 		"name": "quantum"
+	},
+	{
+		"slug": "tech/android-linux",
+		"name": "Android is Linux, right?!"
 	},
 	{
 		"slug": "tech/degoogle-oneplus",

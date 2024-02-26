@@ -59,9 +59,17 @@ body {
 main {
 	width: 30em;
 	min-height: 50%;
-	margin: 3em;
-	margin-bottom: 6em;
+	margin: 3em 1em 6em;
 	font-size: 1.2rem;
+	max-width: 100%;
+}
+
+@media (max-width: 640px) {
+	main {
+		width: 100%;
+		font-size: 1rem;
+		margin: 1.5em 5% 3em;
+	}
 }
 
 p {
@@ -122,4 +130,8 @@ th {
 	flex-direction: row;
 	gap: 2em;
 	justify-content: center;
+}
+
+.math-display {
+	overflow-x: scroll;
 }
