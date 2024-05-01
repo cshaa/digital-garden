@@ -12,7 +12,6 @@
 
 	$: href = <string>properties?.href ?? '';
 	$: external = !!href.match(/https?:\/\//);
-	$: console.log(href);
 </script>
 
 <!-- Waiting for a trim whitespace option 😔 -->
