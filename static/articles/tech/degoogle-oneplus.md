@@ -77,19 +77,19 @@ After the degoogling, you won't be able to use Google Pay or Google Wallet. Also
 
 18. Reboot. Now you have successfully installed LineageOS with microG. You can go to _microG settings_ (it's an app you have installed by default) and check whether any more steps are needed.
 
-19. Finally, we'll install Aurora Store. On your PC, download [Aurora Services](https://gitlab.com/AuroraOSS/AuroraServices/-/releases) – you will need the `AuroraServices-xxx-ota.zip`. Extract the archive. You should get three files: `AuroraServices.apk`, `com.aurora.services.xml` and `69-AuroraServices.sh`. Also, download [`AuroraStore_xxx.apk`](https://gitlab.com/AuroraOSS/AuroraStore/-/releases).
+19. Finally, we'll install Aurora Store. On your PC, download [`AuroraStore_xxx.apk`](https://gitlab.com/AuroraOSS/AuroraStore/-/releases) and [`shizuku-xxx-release.apk`](https://github.com/RikkaApps/Shizuku/releases).
 
 20. Enable Developer mode again, in Developer options enable **USB debugging** and **Rooted debugging**. Connect the phone to PC.
 
 21. Install Aurora using the following commands:
-    * `adb root`
-    * `adb remount`
-    * `adb push AuroraServices.apk /system/priv-app/`
-    * `adb push permissions_com.aurora.services.xml /system/etc/permissions/`
-    * `adb push 69-AuroraServices.sh /system/addon.d/ (from the .zip file)`
-    * `adb install AuroraStore_xxx.apk`
+    <!-- * `adb root`
+    * `adb remount` -->
 
-22. Reboot the phone, open Aurora Store and select Aurora Service as the installation method.
+    * `adb install AuroraStore_xxx.apk`
+    * `adb install shizuku-xxx-release.apk`
+    * `adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh`
+
+22. Open Shizuku, go to Authorized applications and select Aurora Store. Open Aurora Store and select Shizuku as the installation method.
 
 ## Things to do after the installation
 
