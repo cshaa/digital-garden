@@ -20,7 +20,7 @@ After the degoogling, you won't be able to use Google Pay or Google Wallet. Also
 
 ## Steps
 
-1. Get yourself a second-hand OnePlus phone, making sure the model is listed on [this page](https://wiki.lineageos.org/devices/#oneplus). Why second-hand? Because you don't want to further contribute to the climate crisis, spin the wheels of capital and produce more e-waste, of course! Why OnePlus? Because they are good phones which last, they are supported by LineageOS, and have unlockable bootloaders (if you manage to downgrade to OxygenOS 11 – see below). Personaly, I've successfully ungoogled OnePlus 7 Pro and OnePlus Nord, and both devices are amazing to use.
+1. Get yourself a second-hand OnePlus phone, making sure the model is listed on [this page](https://wiki.lineageos.org/devices/#oneplus). Why second-hand? Because you don't want to further contribute to the climate crisis, spin the wheels of capital and produce more e-waste, of course! Why OnePlus? Because they are good phones which last, they are supported by LineageOS, and have unlockable bootloaders (if you manage to downgrade to OxygenOS 11 – see below). Personaly, I've successfully ungoogled OnePlus 7 Pro and ~~OnePlus Nord~~, and both devices are amazing to use. **Update: LineageOS dropped support for OnePlus Nord, therefore you won't be able to install Lineage on a Nord phone anymore.**
 
 2. Install [adb and fastboot](https://developer.android.com/tools/releases/platform-tools) on your PC. The details will be different depending on the OS you're using. After a successful installation, commands `adb` and `fastboot` should work in your terminal / command line.
 
