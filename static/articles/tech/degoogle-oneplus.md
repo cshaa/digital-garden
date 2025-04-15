@@ -18,6 +18,8 @@ Notably, this tutorial does **not** show how to root your phone. The reason is s
 
 After the degoogling, you won't be able to use Google Pay or Google Wallet. Also, your camera will probably be somewhat worse and more noisy than on the stock OS.
 
+Furthermore, Google keeps pushing their [“Play Integrity API”](https://developer.android.com/google/play/integrity) which flags degoogled phones as untrustworthy, causing more and more apps to stop working – for example some banking apps and the Prague public transport app (Lítačka). You can contact the apps' developers and try to convince them that having a phone that doesn't spy on you is legitimate use and they shouldn't prevent such users from accessing their services, but personally I haven't had any luck in this regard. Instead, I've moved to alternatives: Fio bank's app works just fine, and for public transport I buy paper coupons.
+
 ## Steps
 
 1. Get yourself a second-hand OnePlus phone, making sure the model is listed on [this page](https://wiki.lineageos.org/devices/#oneplus). Why second-hand? Because you don't want to further contribute to the climate crisis, spin the wheels of capital and produce more e-waste, of course! Why OnePlus? Because they are good phones which last, they are supported by LineageOS, and have unlockable bootloaders (if you manage to downgrade to OxygenOS 11 – see below). Personaly, I've successfully ungoogled OnePlus 7 Pro and ~~OnePlus Nord~~, and both devices are amazing to use. **Update: LineageOS dropped support for OnePlus Nord, therefore you won't be able to install Lineage on a Nord phone anymore.**
